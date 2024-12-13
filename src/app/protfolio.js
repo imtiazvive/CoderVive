@@ -1,4 +1,5 @@
 "use client";
+import Card from "./Card";
 
 export default function Protfolio() {
     return (
@@ -11,22 +12,28 @@ export default function Protfolio() {
                 <p className="text-sm">Your Vision, Our Expertise; Transforming Ideas into Results</p>
             </div>
 
-            <div className="grid pt-4 lg:grid-cols-2 gap-3">
-                <div className="bg-black w-full h-52  rounded-lg">
+            <div className="grid gap-11 sm:grid-cols-1 lg:grid-cols-2 mt-8">
+                <Card 
+                    imgSrc="https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg"
+                    title="Transforming Farm in Finland"
+                    description="Explore the breathtaking views of nature.Explore the breathtaking views of nature.Explore the breathtaking views of nature."
+                />
+                <Card
+                    imgSrc="https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg"
+                       title="Transforming Farm in Finland"
+                    description="Explore the breathtaking views of nature.Explore the breathtaking views of nature.Explore the breathtaking views of nature."
+                />
+                <Card
+                    imgSrc="https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg"
+                      title="Transforming Farm in Finland"
+                    description="Explore the breathtaking views of nature.Explore the breathtaking views of nature.Explore the breathtaking views of nature."
+                />
+                <Card
+                    imgSrc="https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg"
+                     title="Transforming Farm in Finland"
+                    description="Explore the breathtaking views of nature.Explore the breathtaking views of nature.Explore the breathtaking views of nature."
+                />
 
-                </div>
-
-                <div className="bg-black w-full h-52 rounded-lg">
-
-                </div>
-
-                <div className="bg-black w-full h-52 rounded-lg">
-
-                </div>
-
-                <div className="bg-black w-full h-52 rounded-lg">
-
-                </div>
 
 
             </div>
