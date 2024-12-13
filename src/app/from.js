@@ -37,7 +37,7 @@ export default function From() {
                 <div className=" flex-1 w-full ">
                     <form
                         onSubmit={handleSubmit}
-                        className="mx-auto p-6 bg-orange-100  rounded-lg space-y-4"
+                        className="mx-auto p-6 bg-[#00000005] rounded-lg space-y-4"
                     >
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -129,14 +129,16 @@ export default function From() {
                             />
                         </div>
 
-                        <button
-                            type="submit"
-                            className="w-full bg-blue-500 text-white font-medium py-2 rounded-lg hover:bg-blue-600 transition duration-200"
-                        >
-                            Submit Your Request
-                        </button>
+                        <div className="flex">
+                            <button
+                                type="submit"
+                                className="w-4/12 bg-blue-500 text-white font-medium py-2 rounded-lg hover:bg-blue-600 transition duration-200"
+                            >
+                                Submit Your Request
+                            </button>
 
-                        <div className="text-sm text-center text-gray-500 mt-3">
+                            <div className=" flex flex-col text-sm text-start ml-5 text-gray-500 mt-3">
+                            
                             Prefer email?{" "}
                             <a
                                 href="mailto:hello.codervive.com"
@@ -144,6 +146,7 @@ export default function From() {
                             >
                                 hello.codervive.com
                             </a>
+                            </div>
                         </div>
                     </form>
                 </div>

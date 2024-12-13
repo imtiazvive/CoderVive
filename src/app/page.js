@@ -5,6 +5,7 @@ import Hero from "./hero";
 import Fotter from "./Footer";
 import From from "./from";
 import Protfolio from "./protfolio";
+import ReviewCard from "./reviewcard";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar></NavBar>
       <Hero></Hero>
       <Protfolio></Protfolio>
+      <ReviewCard></ReviewCard>
       <From></From>
       <Fotter></Fotter>
     </div>
