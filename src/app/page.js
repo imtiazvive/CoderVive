@@ -6,7 +6,7 @@ import From from "./from";
 import Protfolio from "./protfolio";
 import ReviewCard from "./reviewcard";
 import AskSec from "./asksec";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Home() {
 
