@@ -1,5 +1,7 @@
 "use client";
+
 import Card from "./card";
+
 
 export default function Protfolio() {
     return (
