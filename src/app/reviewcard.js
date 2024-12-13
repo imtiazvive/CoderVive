@@ -86,7 +86,7 @@ function reviewcard() {
       `}</style>
                 {reviews.map((review, index) => (
                     <div
-                        className="flex-shrink-0 w-auto h-80 content-center bg-[#00000005] text-black  p-4 border rounded-lg shadow-md bg-white text-center hover:bg-gray-100"
+                        className="flex-shrink-0 w-auto md:h-auto lg:h-80 content-center bg-[#00000005] text-black  p-4 border rounded-lg shadow-md bg-white text-center hover:bg-gray-100"
                         key={index}
                         onMouseEnter={stopScrolling}
                         onMouseLeave={startScrolling}

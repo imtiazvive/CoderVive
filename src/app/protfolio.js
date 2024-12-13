@@ -11,7 +11,7 @@ export default function Protfolio() {
                 <p className="text-sm">Your Vision, Our Expertise; Transforming Ideas into Results</p>
             </div>
 
-            <div className="grid pt-4 grid-cols-2 gap-3">
+            <div className="grid pt-4 lg:grid-cols-2 gap-3">
                 <div className="bg-black w-full h-52  rounded-lg">
 
                 </div>

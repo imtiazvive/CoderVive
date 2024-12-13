@@ -24,8 +24,8 @@ export default function From() {
 
     return (
         <div className="container max-w-7xl mx-auto px-8 py-8 mb-20">
-            <div className="flex gap-10">
-                <div className=" flex-1  w-full text-black">
+            <div className="lg:flex lg:gap-10  ">
+                <div className=" lg:flex-1  w-full text-black">
                     <h1 className="text-2xl">Ready to elevate your project?</h1>
                     <p className="text-sm">Our team is here to understand your needs and turn your ideas into reality</p>
                     <div className="mt-6">
@@ -34,7 +34,7 @@ export default function From() {
                     </div>
                 </div>
 
-                <div className=" flex-1 w-full ">
+                <div className=" mt-8 lg:mt-0 lg:flex-1 w-full ">
                     <form
                         onSubmit={handleSubmit}
                         className="mx-auto p-6 bg-[#00000005] rounded-lg space-y-4"
