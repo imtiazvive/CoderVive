@@ -73,7 +73,7 @@ function reviewcard() {
     // 021084357
 
     return (
-        <div className="container max-w-7xl mx-auto px-8 py-8 mb-20">
+        <div className="container max-w-7xl mx-auto px-8 py-8 lg:mb-20">
             <div
                 className="overflow-x-auto flex space-x-4 p-4"
                 ref={scrollContainerRef}
