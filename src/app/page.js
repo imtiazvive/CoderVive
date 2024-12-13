@@ -2,7 +2,7 @@ import Image from "next/image";
 import NavBar from "./NavBar";
 import Logo from "./logo.png";
 import Hero from "./hero";
-import Fotter from "./fotter";
+import Fotter from "./Footer";
 import From from "./from";
 import Protfolio from "./protfolio";
 
