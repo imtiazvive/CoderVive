@@ -12,15 +12,19 @@ export default function Footer() {
             <div className="container max-w-7xl mx-auto px-4">
                 {/* Top Section */}
                 <div className="flex flex-col md:flex-row justify-between items-center">
-                    <div className="mb-4 md:mb-0">
-                        <Image
-                            src={Logo}// Path to your logo in the public folder
-                            alt="MyLogo"
+                    <div className="lg:text-start  text-center mb-4 md:mb-0">
 
-                            width={120} // Adjust width as needed
-                            height={40}  // Adjust height as needed
-                            priority // Ensures the logo is loaded quickly
-                        />
+                        <div className="flex items-center lg:items-start lg:justify-start lg:text-center justify-center text-center">
+                            <Image
+                                src={Logo} // Path to your logo in the public folder
+                                alt="MyLogo"
+                                width={120} // Adjust width as needed
+                                height={40} // Adjust height as needed
+                                priority // Ensures the logo is loaded quickly
+                            />
+                        </div>
+
+
                         <p className="text-sm">Building solutions for the future</p>
                     </div>
 
