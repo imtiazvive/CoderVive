@@ -129,15 +129,15 @@ export default function From() {
                             />
                         </div>
 
-                        <div className="flex">
+                        <div className="w-full lg:flex">
                             <button
                                 type="submit"
-                                className="w-4/12 bg-blue-500 text-white font-medium py-2 rounded-lg hover:bg-blue-600 transition duration-200"
+                                className=" px-4 py w-full h-8 lg:w-4/12 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200"
                             >
-                                Submit Your Request
+                                Submit
                             </button>
 
-                            <div className=" flex flex-col text-sm text-start ml-5 text-gray-500 mt-3">
+                            <div className=" flex flex-col text-sm text-center lg:text-start ml-5 text-gray-500 mt-3">
                             
                             Prefer email?{" "}
                             <a
