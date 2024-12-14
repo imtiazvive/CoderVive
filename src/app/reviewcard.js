@@ -71,7 +71,7 @@ function reviewcard() {
             rating: 5,
         },
     ];
-    
+
 
     const startScrolling = () => {
         const scrollContainer = scrollContainerRef.current;
@@ -118,28 +118,31 @@ function reviewcard() {
       `}</style>
                 {reviews.map((review, index) => (
                     <div
-                        className="flex-shrink-0 w-[450px] md:h-auto lg:h-80 content-start overflow-hidden bg-[#00000005] text-black p-4 border rounded-2xl  bg-gray-100 text-start hover:bg-gray-50"
+                        className="flex flex-col justify-between flex-shrink-0  w-[450px] md:h-auto lg:h-80 content-start overflow-hidden bg-[#00000005] text-black p-4 border rounded-2xl  bg-gray-100 text-start hover:bg-gray-50"
                         key={index}
                         onMouseEnter={stopScrolling}
                         onMouseLeave={startScrolling}
                     >
-                        <p className="text-yellow-500">{"⭐".repeat(review.rating)}</p>
-                        <p
-                            className="text-sm w-full  text-gray-600 mb-2 overflow-hidden"
-                            style={{
-                                display: "-webkit-box",
-                                WebkitBoxOrient: "vertical",
-                                overflow: "hidden",
-                                wordWrap: "break-word",
-                            }}
-                            dangerouslySetInnerHTML={{ __html: review.review }}
-                        />
+                        <div>
+                            <p className="text-yellow-500">{"⭐".repeat(review.rating)}</p>
+                            <p
+                                className="text-sm w-full  text-gray-600 mb-2 overflow-hidden"
+                                style={{
+                                    display: "-webkit-box",
+                                    WebkitBoxOrient: "vertical",
+                                    overflow: "hidden",
+                                    wordWrap: "break-word",
+                                }}
+                                dangerouslySetInnerHTML={{ __html: review.review }}
+                            />
+                        </div>
 
-                        <div className="flex gap-4">
-                            <img src="https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg" className="w-10 h-10 rounded-full"/>
+
+                        <div className="flex gap-4 ">
+                            <img src="https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg" className="w-10 h-10 rounded-full" />
                             <div>
-                                <h3 className="text-lg font-semibold mb-2">{review.name}</h3>
-                                <p>Founder & CEO at CoderVive</p>
+                                <h3 className="text-lg font-semibold m-0 p-0">{review.name}</h3>
+                                <p className="p-0 m-0 text-sm pt-0">Founder & CEO at CoderVive</p>
                             </div>
                         </div>
 

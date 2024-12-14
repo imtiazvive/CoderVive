@@ -5,7 +5,7 @@ import Image from "next/image";
 import Logo from "./whiteLogo.png";
 
 
-export default function footer() {
+export default function footerSec() {
     return (
         // className="bg-white shadow-md fixed w-full z-50"
         <footer className="bg-gray-800 w-full text-white py-8">
