@@ -24,7 +24,7 @@ export default function From() {
     };
 
     return (
-        <div className="container max-w-7xl mx-auto px-8 py-8 mb-20">
+        <div id="contact" className="container max-w-7xl mx-auto px-8 py-8 mb-20">
             <div className="lg:flex lg:gap-10  ">
                 <div className=" lg:flex-1  w-full text-black">
                     <h1 className="text-4xl font-bold">Ready to elevate <br /> your project?</h1>

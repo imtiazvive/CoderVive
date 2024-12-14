@@ -105,7 +105,7 @@ function reviewcard() {
     // 021084357
 
     return (
-        <div className=" mx-auto  lg:mb-20">
+        <div id="testimonial" className=" w-auto h-auto  lg:mb-20">
             <div
                 className="overflow-x-auto flex space-x-4 p-4"
                 ref={scrollContainerRef}

@@ -3,17 +3,18 @@
 import React, { useState } from "react";
 import Logo from "./logo.png";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50">
+    <nav className="navbar bg-white shadow-md fixed w-full z-50 top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Left: Logo */}
           <div className="flex-shrink-0">
-          <Image
+            <Image
               src={Logo} // Path to your logo in the public folder
               alt="MyLogo"
               width={120} // Adjust width as needed
@@ -27,20 +28,35 @@ const Navbar = () => {
             <a href="#" className="text-[#333333] hover:text-blue-600 font-medium">
               About us
             </a>
-            <a href="#" className="text-[#333333] hover:text-blue-600 font-medium">
-             Portfolio
-            </a>
-            <a href="#" className="text-[#333333] hover:text-blue-600 font-medium">
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={500}
+              className="text-[#333333] hover:text-blue-600 font-medium cursor-pointer"
+            >
+              Portfolio
+            </Link>
+            <Link
+              to="testimonial"
+              smooth={true}
+              duration={500}
+              className="text-[#333333] hover:text-blue-600 font-medium cursor-pointer"
+            >
               Testimonial
-            </a>
-            <a href="#" className="text-[#333333] hover:text-blue-600 font-medium">
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="text-[#333333] hover:text-blue-600 font-medium cursor-pointer"
+            >
               Contact
-            </a>
+            </Link>
           </div>
 
           {/* Right: Book a Call Button */}
           <div className="hidden md:block">
-            <button className="transition duration-0 hover:duration-500 bg-blue-50  text-blue-500 px-4 py-2 rounded-md hover:bg-blue-700 hover:text-white ">
+            <button className="transition duration-500 bg-blue-50 text-blue-500 px-4 py-2 rounded-md hover:bg-blue-700 hover:text-white">
               Book a Call
             </button>
           </div>

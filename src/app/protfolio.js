@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import Card from "./card";
+import Card from "./Card";
 
 
 export default function Protfolio() {
     return (
-        <div className="container max-w-7xl mx-auto px-8 py-8 " >
+        <div  id="portfolio" className="container max-w-7xl mx-auto px-8 py-8 " >
 
 
             <div className="text-black">
