@@ -9,11 +9,11 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="w-auto lg:w-full lg:max-w-2xl mx-auto rounded-2xl bg-gray-50  overflow-hidden flex flex-col gap-2">
+    <div className="w-auto lg:w-full lg:max-w-2xl mx-auto flex flex-col gap-2">
       {items.map((item, index) => (
-        <div key={index} className=" border-gray-200">
+        <div key={index} className=" rounded-xl overflow-hidden bg-white border-2 border-gray-300">
           <button
-            className="w-full flex justify-between items-center p-4 bg-gray-100 hover:bg-gray-200 focus:outline-none"
+            className="w-full flex justify-between items-center p-4  hover:bg-gray-200 focus:outline-none"
             onClick={() => toggleAccordion(index)}
           >
             <span className="text-lg font-medium text-gray-800">{item.title}</span>

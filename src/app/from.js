@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { SlCalender } from "react-icons/sl";
 
 export default function From() {
 
@@ -26,11 +27,11 @@ export default function From() {
         <div className="container max-w-7xl mx-auto px-8 py-8 mb-20">
             <div className="lg:flex lg:gap-10  ">
                 <div className=" lg:flex-1  w-full text-black">
-                    <h1 className="text-2xl">Ready to elevate your project?</h1>
-                    <p className="text-sm">Our team is here to understand your needs and turn your ideas into reality</p>
-                    <div className="mt-6">
+                    <h1 className="text-4xl font-bold">Ready to elevate <br /> your project?</h1>
+                    <p className="text-sm mt-2">Our team is here to understand your needs and <br /> turn your ideas into reality</p>
+                    <div className="mt-24">
                         <p>Lets schedule a Call with-</p>
-                        <button className="bg-black text-white rounded-lg p-2">Schedule a 20 Min Call</button>
+                        <button className="bg-[#00000098] text-white rounded-lg p-2 flex  gap-2 justify-center items-center"> <SlCalender /> Schedule a 20 Min Call</button>
                     </div>
                 </div>
 
@@ -50,7 +51,7 @@ export default function From() {
                                 onChange={handleChange}
                                 placeholder="John C"
                                 required
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             />
                         </div>
 
@@ -65,7 +66,7 @@ export default function From() {
                                 onChange={handleChange}
                                 placeholder="eg."
                                 required
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             />
                         </div>
 
@@ -80,7 +81,7 @@ export default function From() {
                                 onChange={handleChange}
                                 placeholder="info.yourmail@email.com"
                                 required
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             />
                         </div>
 
@@ -93,7 +94,7 @@ export default function From() {
                                 value={formData.service}
                                 onChange={handleChange}
                                 required
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             >
                                 <option value="">Select a Service</option>
                                 <option value="Web Development">Web Development</option>
@@ -112,7 +113,7 @@ export default function From() {
                                 value={formData.companyName}
                                 onChange={handleChange}
                                 placeholder="John Carter"
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             />
                         </div>
 
@@ -125,24 +126,24 @@ export default function From() {
                                 value={formData.idea}
                                 onChange={handleChange}
                                 placeholder="Please describe what's on your mind?"
-                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                             />
                         </div>
 
-                        <div className="w-full lg:flex">
+                        <div className="w-full lg:flex  gap-4 justify-center items-center">
                             <button
                                 type="submit"
-                                className=" px-4 py w-full h-8 lg:w-4/12 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200"
+                                className=" px-4 py w-full h-8 lg:w-4/12 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200"
                             >
                                 Submit
                             </button>
 
-                            <div className=" flex flex-col text-sm text-center lg:text-start ml-5 text-gray-500 mt-3">
+                            <div className=" flex flex-col text-sm text-center lg:text-start ml-5 lg:ml-0 text-gray-500 mt-3 lg:mt-0">
                             
                             Prefer email?{" "}
                             <a
                                 href="mailto:hello.codervive.com"
-                                className="text-blue-500 hover:underline"
+                                className="text-black font-bold hover:underline"
                             >
                                 hello.codervive.com
                             </a>

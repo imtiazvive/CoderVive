@@ -23,8 +23,8 @@ export default function AskSec() {
         <div className="grid  lg:grid-flow-col text-black container max-w-7xl mx-auto px-8 py-8 mb-20">
 
             <div className="lg:w-[480px] ">
-                <h2 className="text-2xl font-bold">All You Need to Know</h2>
-                <p>All the Answer You Need, Right at your Figertips, So you can find what you are looking for without any hassle</p>
+                <h2 className="text-4xl font-bold">All You Need to<br /> Know</h2>
+                <p className="mt-2">All the Answer You Need, Right at your Figertips, So you can find what you are looking for without any hassle</p>
             </div>
 
             <div className="mt-8 lg:mt-0">

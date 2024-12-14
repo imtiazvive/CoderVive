@@ -138,7 +138,7 @@ function reviewcard() {
                         </div>
 
 
-                        <div className="flex gap-4 ">
+                        <div className="flex gap-4 mt-6 mb-6 lg:mt-0 lg:mb-0 ">
                             <img src="https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg" className="w-10 h-10 rounded-full" />
                             <div>
                                 <h3 className="text-lg font-semibold m-0 p-0">{review.name}</h3>
