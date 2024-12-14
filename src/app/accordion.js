@@ -9,7 +9,7 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto rounded-2xl bg-gray-50  overflow-hidden flex flex-col gap-2">
+    <div className="w-auto lg:w-full lg:max-w-2xl mx-auto rounded-2xl bg-gray-50  overflow-hidden flex flex-col gap-2">
       {items.map((item, index) => (
         <div key={index} className=" border-gray-200">
           <button

@@ -20,14 +20,14 @@ export default function AskSec() {
       ];
 
     return (
-        <div className="grid grid-flow-col text-black container max-w-7xl mx-auto px-8 py-8 mb-20">
+        <div className="grid  lg:grid-flow-col text-black container max-w-7xl mx-auto px-8 py-8 mb-20">
 
-            <div className="w-[480px] ">
-                <h2>ALl You Need to Know</h2>
+            <div className="lg:w-[480px] ">
+                <h2 className="text-2xl font-bold">All You Need to Know</h2>
                 <p>All the Answer You Need, Right at your Figertips, So you can find what you are looking for without any hassle</p>
             </div>
 
-            <div>
+            <div className="mt-8 lg:mt-0">
                 <Accordion items={items}></Accordion>
             </div>
         </div>

@@ -21,7 +21,7 @@ export default function Home() {
       <ReviewCard></ReviewCard>
       <AskSec></AskSec>
       <From></From>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }
