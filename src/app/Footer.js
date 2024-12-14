@@ -24,8 +24,8 @@ export default function Footer() {
                             />
                         </div>
 
-
                         <p className="text-sm">Building solutions for the future</p>
+                        
                     </div>
 
                     <div className="flex space-x-6">
