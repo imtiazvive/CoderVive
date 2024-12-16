@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState } from "react";
-const Card = ({ imgSrc, title, description }) => {
+const card = ({ imgSrc, title, description }) => {
     return (
         <div className="w-full mx-auto h-auto  overflow-hidden  bg-white">
             <div className="w-full h-[400px] rounded-3xl overflow-hidden">
@@ -15,4 +15,4 @@ const Card = ({ imgSrc, title, description }) => {
     );
 };
 
-export default Card;
+export default card;
