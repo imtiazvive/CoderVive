@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 
 
+
 export default function Protfolio() {
     return (
         <div  id="portfolio" className="container max-w-7xl mx-auto px-8 py-8 " >
@@ -15,7 +16,6 @@ export default function Protfolio() {
             </div>
 
             <div className="grid gap-11 sm:grid-cols-1 lg:grid-cols-2 mt-8">
-                
                 <Card 
                     imgSrc="https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg"
                     title="Transforming Farm in Finland"
