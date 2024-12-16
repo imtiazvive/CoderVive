@@ -1,7 +1,11 @@
 
 "use client";
 
+
 const Hero = () => {
+
+  
+
   return (
     <section className=" bg-white flex justify-center items-center text-center text-white">
       <div className="max-w-4xl  px-4 pt-[100px] lg:pt-[200px] pb-[20px] lg:pb-[100px]">

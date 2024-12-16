@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="navbar bg-white shadow-md fixed w-full z-50 top-0 left-0">
+    <nav className= "navbar bg-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Left: Logo */}
@@ -56,7 +56,7 @@ const Navbar = () => {
 
           {/* Right: Book a Call Button */}
           <div className="hidden md:block">
-            <button className="transition duration-500 bg-blue-50 text-blue-500 px-4 py-2 rounded-md hover:bg-blue-700 hover:text-white">
+            <button className="transition duration-0 hover:duration-500 bg-blue-50  text-blue-500 px-4 py-2 rounded-md hover:bg-blue-700 hover:text-white ">
               Book a Call
             </button>
           </div>
